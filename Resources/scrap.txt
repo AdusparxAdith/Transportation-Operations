@@ -1,0 +1,39 @@
+speed=ships.get("ship_name")-danger
+
+
+---------------------------
+
+# randomise duration
+# randomise probability
+
+if(probability>=80):
+	# clear.
+
+-----------------------------
+#AVERAGE
+
+ship_speed=25 knots
+(1) PD=75
+
+(2) dl=7| [dur=4, FD=0.8].... new_dur=dur*FD=4*0.8=3.2
+
+(3)danger= (dl*new_dur)*2   [4.4]
+
+(4)speed= speed_ship-danger
+	= 25-4.4
+	= 20.6
+
+#DANGEROUS WEATHER
+
+ship_speed= 40 knots
+(1) PD= 7
+
+(2) dl=27 | dur=5, FD=0.1
+	new_dur=0.5
+
+(3) danger=(dl*new_dur)*2
+	= 27*.5*2 = 27
+
+(4) speed= 40-27
+	 = 13
+	

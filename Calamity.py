@@ -4,8 +4,11 @@ class Calamity:
         self.danger_level=danger_level
         self.duration=duration
 
+    # DECLARING THE TYPE OF CALAMITY OCCURRED
     def Calamity_Type(self):
-        if(self.danger_level>5 and self.danger_level<10 ):
+        if(self.danger_level<5):
+            self.danger_level="Clear Weather"
+        elif(self.danger_level>5 and self.danger_level<10 ):
             self.calamity_type="Rain"
         elif(self.danger_level>10 and self.danger_level<15 ):
             self.calamity_type="Lightning"
@@ -16,19 +19,8 @@ class Calamity:
         elif(self.danger_level>25 and self.danger_level<30 ):
             self.calamity_type="Hurricane"
         else:
-            self.calamity_type="Unidentified"
+            self.calamity_type="Undefined"
 
+    # FUNCTION TO RETURN 'danger' FACTOR
     def Danger_Factor(self):
-
-
-
-
-
-
-C=Calamity(6,10)
-
-def main():
-    C.Calamity_Type()
-    print(C.calamity_type)
-
-main()
+     	self.danger=
