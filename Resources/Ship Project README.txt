@@ -2,14 +2,14 @@ PYTHON PROJECT:
 SHIP DEPARTURE AND ARRIVAL:   		
 
 --------------------------------------------------------------    |     ---------------
-Calamity	danger_level	Duration	Prob_Danger	  |	Factor_Duration
+Calamity	danger_level	Duration	Prob_Danger	  |	Factor_Duration (0-100)
 --------------------------------------------------------------    |     ----------------
-  -		0-5		0-5  		100-79 (21%)		100
-Rain		5-10		0-5 (4)		79-58  (21%)		80
-Lightning	10-15		0-5		58-38  (20%)		70
-High Tides	15-20		0-5		38-20  (18%)		50
-Cyclone		20-25		0-5		20-8   (12%)		25
-Hurricane	25-30		0-5		8-0    (8%)		15
+  -		0-5		0-5  		100-79 (21%)		100>
+Rain		5-10		0-5 (4)		79-58  (21%)		100>
+Lightning	10-15		0-5		58-38  (20%)		80>
+High Tides	15-20		0-5		38-20  (18%)		75>
+Cyclone		20-25		0-5		20-8   (12%)		70>
+Hurricane	25-30		0-5		8-0    (8%)		60>
 
 
 City A					City B
