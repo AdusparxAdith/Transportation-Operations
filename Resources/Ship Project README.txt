@@ -104,4 +104,4 @@ CONDITIONS:
 		time+=dist[i]/speed
 	*/
 
-7. ship_speed
+7. ship_speed=ships.get("ship_name")
