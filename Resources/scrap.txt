@@ -62,7 +62,7 @@ ship_speed= ships.get("ship_name")
 	#get value of ship speed of "ship_name"
 
 FDuration= random(0,'max')
-duration= duration * FDuration
+duration= duration * FDuration /100
 
 Danger= (danger_level * duration)/5
 
