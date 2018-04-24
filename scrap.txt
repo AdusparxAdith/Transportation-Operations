@@ -10,7 +10,6 @@ if(probability>=80):
 	# clear.
 
 -----------------------------
-
 DANGER FACTOR:-
 
 We'll need 2 new variables:
@@ -22,7 +21,6 @@ We shall randomize:
 	1. Prob_Danger: Find what calamity has the random number generated.
 	2. danger_level: Find the danger score for the corresponding Calamity.
 	3. duration: Randomize duration between float values of 0-5 hrs.
-
 
 #AVERAGE
 
