@@ -1,10 +1,10 @@
 distance = input("What is the distance between the source and your destination? ")
 
-ships= {"cargo": 40,
-        "crude": 35,
+ships= {"cargo": 20,
+        "crude": 25,
         "tanker": 30,
-        "ultramax": 25,
-        "ferry": 20
+        "ultramax": 35,
+        "ferry": 40
         }
 
 for index in ships:
