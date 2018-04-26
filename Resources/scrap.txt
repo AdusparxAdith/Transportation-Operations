@@ -6,7 +6,7 @@ speed=ships.get("ship_name")-danger
 # randomise duration
 # randomise probability
 
-if(probability>=80):
+# if(probability>=80):
 	# clear.
 
 -----------------------------
@@ -17,7 +17,7 @@ We'll need 2 new variables:
 Probability_Danger: PDanger
 Factor_Duration: FDuration
 
-We should construct a 3x3 matrix: {danger_level, Prob_Danger, Factor_Duration}
+We should construct a 5x3 matrix: {danger_level, Prob_Danger, Factor_Duration}
 We shall randomize:
 	1. Prob_Danger: Find what calamity has the random number generated.
 	2. danger_level: Find the danger score for the corresponding Calamity.
@@ -64,7 +64,7 @@ ship_speed= ships.get("ship_name")
 FDuration= random(0,'max')
 duration= duration * FDuration /100
 
-Danger= (danger_level * duration) /5
+Danger= (danger_level * duration)/5
 
 speed= ship_speed - Danger
 
