@@ -3,11 +3,8 @@ import random
 def Simulation(distance):
     print(Condition_Generator(distance))
 
-
-
-
-
-
+distance_section=[]     # 500  500  500  500 500 500 500 430
+len(distance_section)
 
 def Condition_Generator(distance):
     if(distance > 2000):
@@ -17,7 +14,5 @@ def Condition_Generator(distance):
 
     occurances = random.randrange(0,distance_section+1)
     return(occurances)
-
-
 
 Simulation(400)
