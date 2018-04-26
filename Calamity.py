@@ -24,7 +24,7 @@ class Calamity:
 
     # FUNCTION TO RETURN 'danger' FACTOR
     def Danger_Factor(self):
-     	self.danger=
+     	self.danger =
 # c=Calamity(6,10)
 #
 # print("Calamity is: ",c.Calamity_Type())
