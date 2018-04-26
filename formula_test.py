@@ -5,9 +5,11 @@ class Calamity:
 # Create constructor for CALAMITY object, taking parameters:
 # ship_speed,PDanger
 
-# ship_speed
+#This is bcoz we're gonna create an ARRAY OF OBJECTS
 
-# PDanger=random.uniform(0,99)
+# ship_speed, from main function
+
+# PDanger=random.uniform(0,99), again from main function
 
 # Inside the constructor, the if-else clause begins:
     if(PDanger>=79 and PDanger<100):
@@ -31,7 +33,7 @@ class Calamity:
         danger_level=random.uniform(80,100)
         duration=random.uniform(4,5)
     else:
-        print("Mother of God, it's a Hurricane!!")
+        print("Mother of God! It's a Hurricane!!")
         danger_level=random.uniform(100,120)
         duration=random.uniform(4,5)
 
