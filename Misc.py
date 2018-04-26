@@ -10,7 +10,7 @@ def Simulation(ship_speed,distance):
     for i in len(distance_section):
         PDanger=rand.uniform(0,100)
         C=Calamity(ship_speed,PDanger)
-        
+
 distance_section=[]     # 500  500  500  500 500 500 500 430
 len(distance_section)
 

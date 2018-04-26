@@ -14,9 +14,10 @@ distance = float(input("What is the distance between the source and your destina
 #         print("\n",index,ships[index])
 
 ship = input("\nWhich ship would you like to use? ")
-
+s
 ship_speed=ships.get(ship)
-
-for i in len(distance_section):
-    PDanger=rand.uniform(0,100)
-    C=Calamity(ship_speed,PDanger)
+#
+#Call Simulation
+# for i in len(distance_section):
+#     PDanger=rand.uniform(0,100)
+#     C=Calamity(ship_speed,PDanger)
