@@ -1,15 +1,15 @@
-PYTHON PROJECT:
+﻿PYTHON PROJECT:
 SHIP DEPARTURE AND ARRIVAL:   		
 
 --------------------------------------------------------------    |     ---------------
-Calamity	danger_level	Duration	Prob_Danger	  |	Factor_Duration (0-100)
+Calamity	danger_level	Duration	Prob_Danger	  |	Factor(0-100)
 --------------------------------------------------------------    |     ----------------
-  -		0-5		0-5  		100-79 (21%)		100>
-Rain		5-10		0-5 (4)		79-58  (21%)		100>
-Lightning	10-15		0-5		58-38  (20%)		80>
-High Tides	15-20		0-5		38-20  (18%)		75>
-Cyclone		20-25		0-5		20-8   (12%)		70>
-Hurricane	25-30		0-5		8-0    (8%)		60>
+  -		0-20		0-3.5  		100-79 (21%)		100
+Rain		20-40		1-3.5		79-58  (21%)		100>
+Lightning	40-60		2-3.5		58-38  (20%)		80>
+High Tides	60-80		3.5-5		38-20  (18%)		75>
+Cyclone		80-100		4-5		20-8   (12%)		70>
+Hurricane	100-120		4-5		8-0    (8%)		65>
 
 
 City A					City B
@@ -104,4 +104,4 @@ CONDITIONS:
 		time+=dist[i]/speed
 	*/
 
-7. ship_speed
+7. ship_speed=ships.get("ship_name")

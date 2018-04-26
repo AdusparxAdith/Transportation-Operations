@@ -1,13 +1,23 @@
-distance = input("What is the distance between the source and your destination? ")
+ships= {
+    "cargo": 20,
+    "crude": 25,
+    "tanker": 30,
+    "ultramax": 35,
+    "ferry": 40
+}
 
-ships= {"cargo": 40,
-        "crude": 35,
-        "tanker": 30,
-        "ultramax": 25,
-        "ferry": 20
-        }
+distance = float(input("What is the distance between the source and your destination? "))
 
-for index in ships:
-    print("\n",index,ships[index])
+# Call misc.py
 
-ship = input("\n\nWhich ship would you like to use? ")
+# for index in ships:
+#         print("\n",index,ships[index])
+
+ship = input("\nWhich ship would you like to use? ")
+s
+ship_speed=ships.get(ship)
+#
+#Call Simulation
+# for i in len(distance_section):
+#     PDanger=rand.uniform(0,100)
+#     C=Calamity(ship_speed,PDanger)
