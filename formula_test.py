@@ -35,7 +35,7 @@ class Calamity:
         danger_level=random.uniform(100,120)
         duration=random.uniform(4,5)
 
-    # funciton for calculating PDanger and speed
+    # funciton for calculating Danger and speed
     #
     if(PDanger<79): #if not a clear Weather
         Danger= (danger_level * duration)/10
@@ -44,6 +44,11 @@ class Calamity:
         profit= (danger_level * duration)/10
         speed= ship_speed + profit
 
+    #This is optional
+    #We only want to test if the formulae and the values are proper
+    #We shall create 2 functions to return "Danger" and "speed"
+    #Those 2 results will be returned in the main function
+    
     print("Danger Level: ", danger_level)
     print("Duration: ",duration)
 
