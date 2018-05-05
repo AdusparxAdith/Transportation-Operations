@@ -1,3 +1,5 @@
+import Misc
+
 ships= {
     "cargo": 20,
     "crude": 25,
@@ -8,6 +10,9 @@ ships= {
 
 distance = float(input("What is the distance between the source and your destination? "))
 
+distance_section = Misc.Condition_Generator(distance)
+print(distance_section)
+
 # Call misc.py
 
 # for index in ships:
@@ -16,7 +21,8 @@ distance = float(input("What is the distance between the source and your destina
 ship = input("\nWhich ship would you like to use? ")
 s
 ship_speed=ships.get(ship)
-#
+
+
 #Call Simulation
 # for i in len(distance_section):
 #     PDanger=rand.uniform(0,100)
